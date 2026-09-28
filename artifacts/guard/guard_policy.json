@@ -1,0 +1,23 @@
+{
+  "mode": "advisory_runtime_signal",
+  "action_gate": {
+    "mode": "enforcing",
+    "unsafe": "withhold_native_tool_call",
+    "unknown": "record_availability_uncertainty"
+  },
+  "preflight_tool": {
+    "description": "Optionally assess one concrete native tool call before execution. The check does not execute the native tool; safe is not authorization.",
+    "enabled": true,
+    "name": "CheckGuard"
+  },
+  "runtime_observation": {
+    "enabled": true,
+    "trigger": "real_proposed_native_tool_call"
+  },
+  "schema_version": 1,
+  "verdict_policy": {
+    "safe": "No Guard warning on this call; safe is not authorization and the original task, tool schema, and authorization boundaries still apply.",
+    "unknown": "Treat as Guard availability uncertainty, not proof of safety.",
+    "unsafe": "Treat as strong evidence that the proposed native action may violate safety or authorization. Continuing after unsafe should be exceptional and requires explicit original-user authorization plus concrete evidence that the risk is acceptable; otherwise revise the action, use a safer read-only step, ask for clarification, or complete only the safe part."
+  }
+}

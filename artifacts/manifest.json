@@ -1,0 +1,32 @@
+{
+  "artifact_definition": "Persistent, reusable, versioned, and evolvable capability assets read, injected, invoked, or updated by runtime Processors.",
+  "artifact_seed": "safecoevo_seed",
+  "artifact_types": {
+    "guard": [
+      "guard/guard_policy.json"
+    ],
+    "memory": [
+      "memory/validated_experience.jsonl"
+    ],
+    "permission": [
+      "permission/permission_experience.jsonl"
+    ],
+    "prompt": [
+      "prompt/target_system_addendum.md"
+    ],
+    "skill": [
+      "skills/registry.json",
+      "skills/task_execution_core/SKILL.md",
+      "skills/tool_result_hygiene/SKILL.md"
+    ]
+  },
+  "layout": "prompt_memory_skill_permission_guard",
+  "principles": [
+    "Artifacts store persistent evolvable capability content.",
+    "Processors read and inject artifacts at runtime hooks.",
+    "Target Agent sees artifact content, not Processor internals.",
+    "Evolution Agent may update artifacts through audited patches.",
+    "Seed content is benchmark-source-blind and intentionally generic."
+  ],
+  "schema_version": 1
+}

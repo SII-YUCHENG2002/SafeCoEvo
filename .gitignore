@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+
+# Local credentials and runtime state
+configs/*.json
+!configs/*.example.json
+logs/
+results/
+models/
+external/
+
+# Generated local files
+.showcase-tools/
+.showcase-preview/
+dist/
+tmp/
+data/
+SafeCoEvo_ICLR_2027__final/

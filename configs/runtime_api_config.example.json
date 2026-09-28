@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "target": {
+    "primary": {
+      "model": "REPLACE_WITH_TARGET_MODEL",
+      "base_url": "REPLACE_WITH_TARGET_BASE_URL",
+      "api_key": "REPLACE_WITH_TARGET_API_KEY"
+    },
+    "fallback": {
+      "model": "REPLACE_WITH_TARGET_FALLBACK_MODEL",
+      "base_url": "REPLACE_WITH_TARGET_FALLBACK_BASE_URL",
+      "api_key": "REPLACE_WITH_TARGET_FALLBACK_API_KEY"
+    }
+  },
+  "evolution": {
+    "primary": {
+      "model": "REPLACE_WITH_EVOLUTION_MODEL",
+      "base_url": "REPLACE_WITH_EVOLUTION_BASE_URL",
+      "api_key": "REPLACE_WITH_EVOLUTION_API_KEY"
+    },
+    "fallback": {
+      "model": "REPLACE_WITH_EVOLUTION_FALLBACK_MODEL",
+      "base_url": "REPLACE_WITH_EVOLUTION_FALLBACK_BASE_URL",
+      "api_key": "REPLACE_WITH_EVOLUTION_FALLBACK_API_KEY"
+    }
+  },
+  "judge": {
+    "primary": {
+      "model": "REPLACE_WITH_JUDGE_MODEL",
+      "base_url": "REPLACE_WITH_JUDGE_BASE_URL",
+      "api_key": "REPLACE_WITH_JUDGE_API_KEY"
+    },
+    "fallback": {
+      "model": "REPLACE_WITH_JUDGE_FALLBACK_MODEL",
+      "base_url": "REPLACE_WITH_JUDGE_FALLBACK_BASE_URL",
+      "api_key": "REPLACE_WITH_JUDGE_FALLBACK_API_KEY"
+    }
+  },
+  "guard": {
+    "model": "local-agentdog-unified",
+    "base_url": "http://127.0.0.1:18000/v1",
+    "api_key": "REPLACE_WITH_GUARD_API_KEY"
+  },
+  "embedding": {
+    "model": "REPLACE_WITH_EMBEDDING_MODEL",
+    "base_url": "REPLACE_WITH_EMBEDDING_BASE_URL",
+    "api_key": "REPLACE_WITH_EMBEDDING_API_KEY"
+  }
+}

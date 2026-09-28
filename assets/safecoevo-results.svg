@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="585" viewBox="0 0 1000 585" role="img" aria-labelledby="title desc">
+  <title id="title">SafeCoEvo: Generalization on the Test Set</title>
+  <desc id="desc">Comparison of SHE, static SafeCoEvo, SafeCoEvo without GuardVPO, and full SafeCoEvo on unsafe outcome rate, task success rate, and safe and useful completion rate.</desc>
+  <rect width="1000" height="585" fill="#ffffff"/>
+  <rect x="20" y="20" width="960" height="78" rx="12" fill="#e9f4f1"/>
+  <text x="40" y="54" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#125f59">Generalization on the Test Set</text>
+  <text x="40" y="79" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#48676d">Selected methods · overall results · 300 episodes</text>
+  <text x="252" y="134" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#173e46">UOR ↓</text>
+  <text x="252" y="155" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#587179">Lower is better</text>
+  <text x="500" y="134" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#173e46">TSR ↑</text>
+  <text x="500" y="155" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#587179">Higher is better</text>
+  <text x="748" y="134" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#173e46">SUCR ↑</text>
+  <text x="748" y="155" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#587179">Higher is better</text>
+  <rect x="20" y="448" width="960" height="78" rx="8" fill="#eef8f5"/>
+  <line x1="252" y1="174" x2="252" y2="517" stroke="#dce7e8" stroke-width="1"/>
+  <line x1="332" y1="174" x2="332" y2="517" stroke="#dce7e8" stroke-width="1"/>
+  <line x1="412" y1="174" x2="412" y2="517" stroke="#dce7e8" stroke-width="1"/>
+  <line x1="500" y1="174" x2="500" y2="517" stroke="#dce7e8" stroke-width="1"/>
+  <line x1="580" y1="174" x2="580" y2="517" stroke="#dce7e8" stroke-width="1"/>
+  <line x1="660" y1="174" x2="660" y2="517" stroke="#dce7e8" stroke-width="1"/>
+  <line x1="748" y1="174" x2="748" y2="517" stroke="#dce7e8" stroke-width="1"/>
+  <line x1="828" y1="174" x2="828" y2="517" stroke="#dce7e8" stroke-width="1"/>
+  <line x1="908" y1="174" x2="908" y2="517" stroke="#dce7e8" stroke-width="1"/>
+  <text x="30" y="211" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#263f47">SHE</text>
+  <rect x="252" y="190" width="46.70" height="31" rx="3" fill="#91a5a9"/>
+  <text x="306.70" y="211" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173e46">29.19%</text>
+  <rect x="500" y="190" width="86.98" height="31" rx="3" fill="#91a5a9"/>
+  <text x="594.98" y="211" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173e46">54.36%</text>
+  <rect x="748" y="190" width="67.12" height="31" rx="3" fill="#91a5a9"/>
+  <text x="823.12" y="211" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173e46">41.95%</text>
+  <line x1="20" y1="250" x2="980" y2="250" stroke="#edf2f2" stroke-width="1"/>
+  <text x="30" y="306" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#263f47">SafeCoEvo (Static)</text>
+  <rect x="252" y="285" width="30.40" height="31" rx="3" fill="#91a5a9"/>
+  <text x="290.40" y="306" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173e46">19.00%</text>
+  <rect x="500" y="285" width="41.07" height="31" rx="3" fill="#91a5a9"/>
+  <text x="549.07" y="306" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173e46">25.67%</text>
+  <rect x="748" y="285" width="37.87" height="31" rx="3" fill="#91a5a9"/>
+  <text x="793.87" y="306" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173e46">23.67%</text>
+  <line x1="20" y1="345" x2="980" y2="345" stroke="#edf2f2" stroke-width="1"/>
+  <text x="30" y="401" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#263f47">SafeCoEvo w/o GuardVPO</text>
+  <rect x="252" y="380" width="12.27" height="31" rx="3" fill="#91a5a9"/>
+  <text x="272.27" y="401" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173e46">7.67%</text>
+  <rect x="500" y="380" width="128.00" height="31" rx="3" fill="#91a5a9"/>
+  <text x="636.00" y="401" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173e46">80.00%</text>
+  <rect x="748" y="380" width="123.73" height="31" rx="3" fill="#91a5a9"/>
+  <text x="879.73" y="401" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173e46">77.33%</text>
+  <line x1="20" y1="440" x2="980" y2="440" stroke="#edf2f2" stroke-width="1"/>
+  <text x="30" y="496" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#116b62">SafeCoEvo</text>
+  <rect x="252" y="475" width="12.27" height="31" rx="3" fill="#117369"/>
+  <text x="272.27" y="496" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173e46">7.67%</text>
+  <rect x="500" y="475" width="130.13" height="31" rx="3" fill="#117369"/>
+  <text x="638.13" y="496" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173e46">81.33%</text>
+  <rect x="748" y="475" width="125.33" height="31" rx="3" fill="#117369"/>
+  <text x="881.33" y="496" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#173e46">78.33%</text>
+  <text x="30" y="556" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#587179">Scale: 0–100% for every metric · Lower UOR and higher TSR/SUCR are better</text>
+</svg>

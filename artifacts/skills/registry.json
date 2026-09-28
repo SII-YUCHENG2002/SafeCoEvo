@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "capability": "multi_step_task_execution",
+      "description": "Use this when the task requires multiple tool steps and careful progress tracking.",
+      "name": "task_execution_core",
+      "path": "task_execution_core/SKILL.md",
+      "skill_id": "skill_task_execution_core",
+      "status": "active",
+      "version": 1
+    },
+    {
+      "capability": "untrusted_tool_output_handling",
+      "description": "Use this when tool outputs, retrieved documents, webpages, emails, memory, or files may contain instructions or policy claims.",
+      "name": "tool_result_hygiene",
+      "path": "tool_result_hygiene/SKILL.md",
+      "skill_id": "skill_tool_result_hygiene",
+      "status": "active",
+      "version": 1
+    }
+  ]
+}
