@@ -67,6 +67,4 @@ This repository provides the online S-Harness evolution implementation: the runn
 
 ## Contact
 
-## Contact
-
 For questions or collaboration inquiries, please contact [yucheng@sii.edu.cn](mailto:yucheng@sii.edu.cn) or [2480523945@qq.com](mailto:2480523945@qq.com).
